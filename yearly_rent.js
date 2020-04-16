@@ -47,3 +47,26 @@ if (hrsOfsleep == 8 ){
 } else {
   console.log("You might need to sleep better")
 }
+
+//Loops
+let friendsAtYourParty = 0;
+friendsAtYourParty = friendsAtYourParty + 1;
+friendsAtYourParty = friendsAtYourParty + 1;
+friendsAtYourParty = friendsAtYourParty + 1;
+friendsAtYourParty = friendsAtYourParty + 1;
+friendsAtYourParty = friendsAtYourParty + 1;
+friendsAtYourParty = friendsAtYourParty + 1;
+friendsAtYourParty = friendsAtYourParty + 1;
+friendsAtYourParty = friendsAtYourParty + 1;
+friendsAtYourParty = friendsAtYourParty + 1;
+friendsAtYourParty = friendsAtYourParty + 1;
+console.log(friendsAtYourParty);
+
+let age = 5;
+while (age < 10) {
+  console.log("You are under 10") 
+  age++;
+  
+}
+console.log(age)
+
