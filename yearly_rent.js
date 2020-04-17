@@ -64,9 +64,16 @@ console.log(friendsAtYourParty);
 
 let age = 5;
 while (age < 10) {
-  console.log("You are under 10") 
+  console.log("You are under 10"); 
   age++;
   
 }
-console.log(age)
+console.log("Under " + age);
+
+let f = 0;
+for (let i = 0; i <= 10; i++) {
+  f++;
+}
+console.log(f);
+
 
