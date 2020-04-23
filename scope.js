@@ -17,10 +17,10 @@ function doStuff(B) {
 let E = 0;
 while (E < 3) {
   E++;
-  console.log(A); // works, the outter block (called the global scope) is still in scope
+  console.log(A); // works, the outer block (called the global scope) is still in scope
   const G = "G";
 }
-console.log(E); // works, E was declared outside the whie loop
+console.log(E); // works, E was declared outside the while loop
 console.log(G); // does not work, declared inside the while loop and it's over
 
 doStuff("B");
