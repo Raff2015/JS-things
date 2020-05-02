@@ -11,12 +11,16 @@ body {
     width: 400px;
     background-color: black;
     color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.5%;
 }
 
 .screen {
     color: white;
-    font-size: 40px;
-    font-family: "Courier New", Courier, monospace;
+    font-size: 75px;
+    font-family: "Roboto";
     text-align: right;
     padding: 20px 5px;
 }
@@ -24,7 +28,7 @@ body {
 .calc-button {
     background-color: #d8d9db;
     color: black;
-    height: 100px;
+    height: 75px;
     width: 24.5%;
     border: none;
     border-radius: 0;
@@ -49,12 +53,12 @@ body {
 }
 
 .calc-button:last-child {
-    background-color: #df974c;
+    background-color: #fc9c17;
     color: white;
 }
 
 .calc-button:last-child:hover {
-    background-color: #dfb07e;
+    background-color: #f77e1b;
 }
 
 .calc-button:last-child:active {
